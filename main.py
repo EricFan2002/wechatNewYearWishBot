@@ -16,7 +16,7 @@ def text_reply(msg):
 itchat.auto_login()
 friendList = itchat.get_friends(update=True)[1:]
 for aFriend in friendList:
-    aFriend.send("Hey %s! 祝你新年快乐哦~ (By Eric's Bot@http://)" % aFriend["NickName"])
+    aFriend.send("Hey %s! 祝你新年快乐哦~ \r\n(By Eric's Bot@https://github.com/EricFan2002/wechatNewYearWishBot)" % aFriend["NickName"])
     time.sleep(1)
 
 
